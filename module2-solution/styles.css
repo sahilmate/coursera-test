@@ -1,0 +1,106 @@
+
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+  
+.page-title{
+    width: 90%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 175%;
+    font-weight: bolder;
+}
+  
+.title{
+    width:40%;
+    float:right;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    float:right;
+}
+  
+.menu{
+    background-color: gray;
+    margin:20px;
+    border:1px solid black;
+}
+  
+.content{
+    margin:10px;
+    margin-top:40px;
+    clear:both;
+}
+  
+.row {
+    width: 100%;
+    border: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding:10px;
+}
+
+
+#CHICKEN{background-color: #df9b9b;}
+#BEEF{background-color: #e74646;}
+#SUSHI{background-color: #edd38b;}
+     
+  
+/********** Desktop **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+      float: left;
+      background-color: white;
+      width: 33.33%;
+    }
+}
+  
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+      float: left;
+      background-color: white;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+}
+  
+/********** Mobile **********/
+@media (max-width: 767px) {
+    .col-sm-12 {
+      float: left;
+      background-color: white;
+      width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
